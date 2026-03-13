@@ -1,16 +1,31 @@
-# bozukradyo
+# 📻 Flutter Radio Application
 
-A new Flutter project.
+A modern, high-performance radio streaming application built with Flutter. This project demonstrates professional state management techniques, background service integration, and a sleek user interface.
 
-## Getting Started
+## 🚀 Features
+* **Live Streaming:** Real-time high-quality audio streaming from multiple radio channels.
+* **Background Playback:** Seamless music experience even when the app is minimized or the screen is locked.
+* **Modern UI/UX:** A fast and responsive interface managed with GetX.
+* **Lock Screen Controls:** Full integration with system media controls and notification panel.
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack & Libraries
+In this project, I implemented and mastered the following technologies:
 
-A few resources to get you started if this is your first Flutter project:
+* **Flutter:** For building the cross-platform mobile experience.
+* **GetX:** Used for State Management, Dependency Injection, and Routing.
+* **Just Audio:** Leveraged for its low-latency and feature-rich audio playback capabilities.
+* **Audio Service:** Integrated to handle background audio tasks and system media notification sync.
+* **Cached Network Image:** For efficient loading and caching of radio station logos.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📈 Key Learnings
+* **Advanced State Management:** Implementing a clean Controller-View separation to keep the code scalable.
+* **Native Android Integration:** Working with AndroidManifest.xml and Foreground Service permissions for modern Android versions.
+* **Lifecycle Management:** Managing audio streams effectively based on the app's lifecycle states.
+* **Error Handling:** Building robust mechanisms to handle network drops or stream timeouts gracefully.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Quick Start (One-Liner)
+
+To get the project running immediately, copy and paste the following command into your terminal:
+
+```bash
+flutter pub get && flutter run
